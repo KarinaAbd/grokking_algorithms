@@ -1,3 +1,8 @@
+# Sort an array of numbers in three different ways:
+# - bubble sorting -> O(n^2)
+# - selection sorting -> O(n^2)
+# - quick sorting -> O(n log n)
+
 from datetime import datetime
 import functools
 
@@ -52,6 +57,7 @@ def quick_sort(numbers: [int]) -> [int]:
     return inner(numbers)
 
 
-assert bubble_sort([1, 2, 5, 2, 3]) == [1, 2, 2, 3, 5]
-assert selection_sort([1, 2, 5, 2, 3]) == [1, 2, 2, 3, 5]
-assert quick_sort([1, 2, 5, 2, 3]) == [1, 2, 2, 3, 5]
+test_numbers = [1, 2, 5, 2, 3]
+assert bubble_sort(test_numbers[:]) == [1, 2, 2, 3, 5]
+assert selection_sort(test_numbers[:]) == [1, 2, 2, 3, 5]
+assert quick_sort(test_numbers[:]) == [1, 2, 2, 3, 5]

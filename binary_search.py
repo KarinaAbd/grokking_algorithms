@@ -19,7 +19,7 @@ def binary_search(numbers: [int], target: int) -> int:
     return -1
 
 
-test_numbers = [-1,0,3,5,9,12]
+test_numbers = [-1, 0, 3, 5, 9, 12]
 assert binary_search(test_numbers, 9) == 4
 assert binary_search(test_numbers, -1) == 0
 assert binary_search(test_numbers, 4) == -1
