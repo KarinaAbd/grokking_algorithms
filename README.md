@@ -7,7 +7,7 @@ This repository was created to solve tasks from the book **[Grokking Algorithms]
 - Selection sort :heavy_check_mark:
 - Linked list :heavy_check_mark:
 - Recursion :heavy_check_mark:
-- The stack
+- The stack :heavy_check_mark:
 - Quicksort :heavy_check_mark:
 - Merge sort
 - Hash tables
