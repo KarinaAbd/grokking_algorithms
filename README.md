@@ -10,7 +10,7 @@ This repository was created to solve tasks from the book **[Grokking Algorithms]
 - The stack :heavy_check_mark:
 - Quicksort :heavy_check_mark:
 - Merge sort
-- Hash tables
+- Hash tables :heavy_check_mark:
 - Breadth-First Search :heavy_check_mark:
 - Queues :heavy_check_mark:
 - Dijkstra's algorithm
